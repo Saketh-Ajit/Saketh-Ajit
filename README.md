@@ -16,7 +16,7 @@ Hi!, I'm a programmer.<br/>
 <h3>Contact</h3>
 &emsp; linkedin: <a href="https://linkedin.com/in/saketh-ajit">https://linkedin.com/in/saketh-ajit</a>
 <br/>
-&emsp; email: <a href="saketh.ajit@gmail.com">saketh770@gmail.com</a>
+&emsp; email: <a href="saketh.ajit@gmail.com">saketh.ajit@gmail.com</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -30,5 +30,4 @@ Hi!, I'm a programmer.<br/>
 <a href="https://www.llvm.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/llvm/llvm-original.svg" alt="llvm" width="40" height="40"/> </a>
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
 
-</a>
 </p>
