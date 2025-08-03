@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/*	font-family: "Calibri";*/
+}
+
+nav {
+	background: grey;
+	padding: 20px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+ul li {
+	margin: 0 15px
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+ul li a.active {
+	text-decoration: underline;
+	color: black;
+}
+
+.Page_Title {
+	font-size: 50px;
+	font-family: Proxima-Nova-SemiBold;
+}
+
+.Projects_Container {
+	margin-left: 20px;
+}
+
+.Project_Container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.Project_Title {
+	font-size: 25px;
+}
+
+.About_Body {
+	white-space: pre-line;
+	margin-left: 20px;
+}
