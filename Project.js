@@ -20,7 +20,7 @@ const projects=[
 		name: "RESTful Blogging API"
 		url: "https://github.com/SakethAjith/RESTful_Blogging_API"
 		description:"A simple blogging API created with golang, GIN, GORM and postgres"
-	},
+	}
 ]
 const content=`
 	<div>
