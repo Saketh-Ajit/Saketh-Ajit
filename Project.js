@@ -17,10 +17,10 @@ const projects=[
 		description:"A project to keep track of the real time price of 10,000+ crypto currencies and price hisotry via real time database"
 	},
 	{
-		name: "RESTful Blogging API"
-		url: "https://github.com/SakethAjith/RESTful_Blogging_API"
+		name: "RESTful Blogging API",
+		url: "https://github.com/SakethAjith/RESTful_Blogging_API",
 		description:"A simple blogging API created with golang, GIN, GORM and postgres"
-	}
+	},
 ]
 const content=`
 	<div>
