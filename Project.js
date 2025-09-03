@@ -7,14 +7,19 @@ const projects=[
 		description:"A simple tool designed to make efficient use of LLM's by leveraging Retrieval Augmented Generation in order to obtain relevant information from a provided corpus of text quickly, and reduce chances of hallucination."
 	},
 	{
-		name: "Voice Analyser",
-		url: "https://github.com/SakethAjith/Voice-Analyser",
-		description:"To determine a persons mood to be happy, angry or sad by analysing their voice"
+		name: "ExamPro",
+		url: "https://github.com/SakethAjith/ExamPro",
+		description:"Project designed to help studets prepare for graduate education qualifying exams."
 	},
 	{
 		name: "Crypto Price Tracker",
 		url: "https://github.com/SakethAjith/CryptoPrice",
 		description:"A project to keep track of the real time price of 10,000+ crypto currencies and price hisotry via real time database"
+	},
+	{
+		name: "RESTful Blogging API"
+		url: "https://github.com/SakethAjith/RESTful_Blogging_API"
+		description:"A simple blogging API created with golang, GIN, GORM and postgres"
 	},
 ]
 const content=`
