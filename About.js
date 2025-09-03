@@ -10,4 +10,4 @@ const aboutContent= `<div>
 		I am passionate about designing highly performant, low latency software.
 	</p>
 </div>`
-	export default aboutContent;
+export default aboutContent;
