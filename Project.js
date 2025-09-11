@@ -3,26 +3,31 @@
 const projects = [
 	{
 		name: "Agnostic RAG",
+		tags: ["Python", "Pytorch"],
 		url: "https://github.com/SakethAjith/Agnostic-RAG",
 		description: "A simple tool designed to make efficient use of LLM's by leveraging Retrieval Augmented Generation in order to obtain relevant information from a provided corpus of text quickly, and reduce chances of hallucination."
 	},
 	{
 		name: "ExamPro",
+		tags: ["SQL", "PHP"],
 		url: "https://github.com/SakethAjith/ExamPro",
 		description: "Project designed to help studets prepare for graduate education qualifying exams."
 	},
 	{
 		name: "Crypto Price Tracker",
+		tags: ["JAVA", "InfluxDB", "Spring Boot"],
 		url: "https://github.com/SakethAjith/CryptoPrice",
 		description: "A project to keep track of the real time price of 10,000+ crypto currencies and price hisotry via real time database"
 	},
 	{
 		name: "RESTful Blogging API",
+		tags: ["Golang", "Gin", "GORM", "Postgres"],
 		url: "https://github.com/SakethAjith/RESTful_Blogging_API",
 		description: "A simple blogging API created with golang, GIN, GORM and postgres"
 	},
 	{
 		name: "ColorLib",
+		tags: ["C++"],
 		url: "https://github.com/SakethAjith/ColorLib",
 		description: "A header only library to enable different foreground and background colors for text in CLI and shells to enhance DX."
 	},
@@ -35,6 +40,10 @@ const content = `
 	return `
 				<div class="Project_Container">
 					<a class="Project_Title" href="${x.url}">${x.name}</a>
+					<br/>
+					${x.tags.map((i) => {
+		return `<div class="tag">${i}</div>`
+	}).join('')}
 					<div class="Project_Description">${x.description}</div>
 				</div>`
 }).join('')
