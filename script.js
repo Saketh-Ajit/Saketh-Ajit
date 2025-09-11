@@ -1,6 +1,5 @@
 import aboutContent from './About.js'
 import projectContent from './Project.js'
-import separator from './seperator.js'
 
 document.addEventListener("DOMContentLoaded", () => {
     const content = document.getElementById("content");
