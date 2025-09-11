@@ -39,6 +39,7 @@ ul li a.active {
 .Page_Title {
 	font-size: 50px;
 	font-family: Proxima-Nova-SemiBold;
+	margin-left: 10px;
 }
 
 .Projects_Container {
