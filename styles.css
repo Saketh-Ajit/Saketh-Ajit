@@ -51,12 +51,12 @@ ul li a.active {
 
 .Page_Title {
 	font-size: 50px;
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-top: 10px;
 }
 
 .Projects_Container {
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 .Project_Container {
@@ -72,20 +72,31 @@ ul li a.active {
 
 .About_Body {
 	white-space: pre-line;
-	margin-left: 20px;
+	margin-left: 50px;
 	font-family: bgd;
+}
+
+.header {
+	padding: 10px;
+	background-color: grey;
+
+}
+
+.header_title {
+	margin-left: 30px;
+	color: white;
+	font-size: 50px;
 }
 
 footer {
 	color: white;
-	text-align: left;
 	margin-top: 20px;
 	padding: 30px;
 	background-color: grey;
 }
 
 .footer_content {
-	margin-left: 20px;
+	margin-left: 10px;
 
 }
 
