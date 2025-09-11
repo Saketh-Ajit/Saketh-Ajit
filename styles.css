@@ -76,6 +76,27 @@ ul li a.active {
 	font-family: bgd;
 }
 
+footer {
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	padding: 30px;
+	background-color: grey;
+}
+
+.footer_content {
+	margin-left: 20px;
+
+}
+
+.mail-link {
+	color: blue;
+}
+
+.ln-link {
+	color: blue;
+}
+
 .tag {
 	display: inline-block;
 	padding: 4px 15px;
