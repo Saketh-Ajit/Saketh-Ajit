@@ -1,45 +1,49 @@
 
 
-const projects=[
+const projects = [
 	{
 		name: "Agnostic RAG",
 		url: "https://github.com/SakethAjith/Agnostic-RAG",
-		description:"A simple tool designed to make efficient use of LLM's by leveraging Retrieval Augmented Generation in order to obtain relevant information from a provided corpus of text quickly, and reduce chances of hallucination."
+		description: "A simple tool designed to make efficient use of LLM's by leveraging Retrieval Augmented Generation in order to obtain relevant information from a provided corpus of text quickly, and reduce chances of hallucination."
 	},
 	{
 		name: "ExamPro",
 		url: "https://github.com/SakethAjith/ExamPro",
-		description:"Project designed to help studets prepare for graduate education qualifying exams."
+		description: "Project designed to help studets prepare for graduate education qualifying exams."
 	},
 	{
 		name: "Crypto Price Tracker",
 		url: "https://github.com/SakethAjith/CryptoPrice",
-		description:"A project to keep track of the real time price of 10,000+ crypto currencies and price hisotry via real time database"
+		description: "A project to keep track of the real time price of 10,000+ crypto currencies and price hisotry via real time database"
 	},
 	{
 		name: "RESTful Blogging API",
 		url: "https://github.com/SakethAjith/RESTful_Blogging_API",
-		description:"A simple blogging API created with golang, GIN, GORM and postgres"
+		description: "A simple blogging API created with golang, GIN, GORM and postgres"
+	},
+	{
+		name: "ColorLib",
+		url: "https://github.com/SakethAjith/ColorLib",
+		description: "A header only library to enable different foreground and background colors for text in CLI and shells to enhance DX."
 	},
 ]
-const content=`
+const content = `
 	<div>
 	<div class="Page_Title">Projects</div>
 		<div class="Projects_Container">
-		${
-			projects.map((x)=>{
-				return `
+		${projects.map((x) => {
+	return `
 				<div class="Project_Container">
 					<a class="Project_Title" href="${x.url}">${x.name}</a>
 					<div class="Project_Description">${x.description}</div>
 				</div>`
-			}).join('')
-		}
+}).join('')
+	}
 		</div>
 	</div>
 `
 
-const projectContent=
+const projectContent =
 	`
 <h1>Projects</h1>
 <div class="mt-4 flex-col space-y-4">
