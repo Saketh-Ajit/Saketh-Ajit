@@ -7,12 +7,12 @@ const projects = [
 		url: "https://github.com/SakethAjith/Agnostic-RAG",
 		description: "A simple tool designed to make efficient use of LLM's by leveraging Retrieval Augmented Generation in order to obtain relevant information from a provided corpus of text quickly, and reduce chances of hallucination."
 	},
-	{
-		name: "ExamPro",
-		tags: ["SQL", "PHP"],
-		url: "https://github.com/SakethAjith/ExamPro",
-		description: "Project designed to help studets prepare for graduate education qualifying exams."
-	},
+	//	{
+	//		name: "ExamPro",
+	//		tags: ["SQL", "PHP"],
+	//		url: "https://github.com/SakethAjith/ExamPro",
+	//		description: "Project designed to help studets prepare for graduate education qualifying exams."
+	//	},
 	{
 		name: "Crypto Price Tracker",
 		tags: ["JAVA", "InfluxDB", "Spring Boot"],
