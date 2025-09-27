@@ -3,7 +3,7 @@ const aboutContent = `<div>
 	<div class="Page_Title">
 		About
 	</div>
-	<p class="About_Body" style="white-space: pre-line;">
+	<div class="About_Body" style="white-space: pre-line;">
 		Hello, I'm a backend developer, with experience in
 		large scale distributed systems and data-intensive platforms.
 		
@@ -18,14 +18,16 @@ const aboutContent = `<div>
 	My research experience includes designing a medical imaging tool using OpenCV for myocardium thickness measurement, combining computational analysis with healthcare applications. This project demonstrated my ability to apply analytical techniques to solve real-world problems, particularly in processing and analyzing complex medical DICOM images.
 
 	I am particularly interested in opportunities that combine:
-	    Backend architecture design and implementation
-	    Performance optimization and scalability improvements
-	    Complex data processing and analytical systems development
-	    Integration of computational analysis with practical applications
+	<ul class="About-interests">
+	<li class="About-interest-points">Backend architecture design and implementation</li>
+	<li class="About-interest-points">Performance optimization and scalability improvements</li>
+	<li class="About-interest-points">Complex data processing and analytical systems development</li>
+	<li class="About-interest-points">Integration of computational analysis with practical applications</li>
+	</ul>
 
 	 I am well-equipped to contribute to challenging technical projects. My background in computer science provides me with strong analytical and problem-solving skills essential for complex computational tasks.
 
 	I would welcome the opportunity to discuss how my background in computational analysis, data processing, and backend development could benefit your team.
-	</p>
+	</div>
 </div>`
 export default aboutContent;

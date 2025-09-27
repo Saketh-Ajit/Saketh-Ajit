@@ -23,7 +23,7 @@ nav {
 	padding: 20px;
 }
 
-ul {
+/*ul {
 	list-style: none;
 	display: flex;
 	justify-content: center;
@@ -48,6 +48,7 @@ ul li a.active {
 	text-decoration: underline;
 	color: black;
 }
+*/
 
 .Page_Title {
 	font-size: 50px;
@@ -75,7 +76,22 @@ ul li a.active {
 	white-space: pre-line;
 	margin-left: 50px;
 	font-family: bgd;
+	max-width: 1050px;
+	text-align: justify;
 }
+
+.About-interests {
+	list-style-type: circle;
+	vertical-align: middle;
+	padding-left: 30px;
+	margin-bottom: -50px;
+}
+
+.About-interest-points {
+	margin-top: -15px;
+}
+
+
 
 .header {
 	padding: 10px;
