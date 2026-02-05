@@ -15,7 +15,7 @@ const aboutContent = `<div>
 
 	During my tenure at BlueOptima, I played a key role in developing a comprehensive developer analytics platform. This platform processed and analyzed complex code metrics to evaluate solution correctness, maintainability, and efficiency. I also engineered a custom backend ATS integration that significantly improved operational efficiency, resulting in \$10,000 annual cost savings. Additionally, I developed a Python-based security analysis tool that automated the detection of CVE-affected dependencies, saving 16 developer hours weekly across four departments.
 
-	My research experience in medical image analysis,involved leveraging image detection to classify the risk of patients likely to suffer from cardio myopathy based on the thickness of the mycardium, combining computational analysis with healthcare applications. This project demonstrated my ability to apply analytical techniques to solve real-world problems.
+	My research experience in medical image analysis, involved leveraging image detection to classify the risk of patients likely to suffer from cardio myopathy based on the thickness of the mycardium, combining computational analysis with healthcare applications. This project demonstrated my ability to apply analytical techniques to solve real-world problems.
 
 	I am particularly interested in opportunities that combine:
 	<ul class="About-interests">
